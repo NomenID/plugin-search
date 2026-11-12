@@ -1,0 +1,5 @@
+{
+  "Search pages": "페이지 검색",
+  "Results for {:query}": "'{:query}' 검색 결과",
+  "No results for {:query}": "'{:query}'에 대한 결과가 없습니다"
+}

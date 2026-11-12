@@ -17,9 +17,16 @@ use Nomen\Src\Database;
  */
 final class Indexer
 {
-    /** @param array<int, string> $args */
-    public static function run(array $args): int
+    public static function run(): int
     {
+        $args = [];
+        foreach ($_SERVER['argv'] ?? [] as $i => $value) {
+            if ($value === 'search:reindex') {
+                $args = array_slice($_SERVER['argv'], $i + 1);
+                break;
+            }
+        }
+
         $settings = Search::settings();
 
         if ($settings['engine'] === 'db') {
@@ -29,7 +36,14 @@ final class Indexer
 
         $fresh = in_array('--fresh', $args, true);
         $docs = self::documents();
-        $count = Search::engine($settings)->reindex($docs, $fresh);
+
+        try {
+            $count = Search::engine($settings)->reindex($docs, $fresh);
+        } catch (\Throwable $e) {
+            fwrite(STDERR, $settings['engine'] . ' 连不上或报错：' . $e->getMessage() . PHP_EOL);
+            fwrite(STDERR, '先确认服务在跑、host / key 填对，再重试。' . PHP_EOL);
+            return 1;
+        }
 
         fwrite(STDOUT, sprintf(
             '已推送 %d 篇到 %s（index=%s）%s',
