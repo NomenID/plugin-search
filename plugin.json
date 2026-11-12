@@ -1,0 +1,29 @@
+{
+    "name": "Search",
+    "version": "1.0.0",
+    "description": "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch",
+    "license": "Apache-2.0",
+    "author": [
+        "Yunyun (Wang Yaoze)"
+    ],
+    "requires": {
+        "Nomen": ">=1.3.10"
+    },
+    "autoload": {
+        "Nomen\\Plugin\\Search\\": "src/"
+    },
+    "mounts": {
+        "search": {
+            "path": "/search",
+            "title": "Search",
+            "description": "Page search for visitors",
+            "access": "public",
+            "config": "base_path"
+        }
+    },
+    "boot": [
+        "Nomen\\Plugin\\Search\\Plugin",
+        "boot"
+    ],
+    "homepage": "https://nomenid.org/w/plugin-search"
+}
