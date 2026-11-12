@@ -1,5 +1,6 @@
 {
     "No results for {:query}": "No results for {:query}",
     "Results for {:query}": "Results for {:query}",
-    "Search pages": "Search pages"
+    "Search pages": "Search pages",
+    "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch"
 }

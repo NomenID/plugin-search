@@ -1,5 +1,6 @@
 {
   "Search pages": "ค้นหาหน้า",
   "Results for {:query}": "ผลลัพธ์สำหรับ {:query}",
-  "No results for {:query}": "ไม่พบผลลัพธ์สำหรับ {:query}"
+  "No results for {:query}": "ไม่พบผลลัพธ์สำหรับ {:query}",
+  "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "ค้นหาหน้าที่เผยแพร่ — ค่าเริ่มต้นคือฐานข้อมูล หรือ Meilisearch, OpenSearch และ Elasticsearch"
 }

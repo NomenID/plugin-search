@@ -1,5 +1,6 @@
 {
   "Search pages": "পৃষ্ঠা অনুসন্ধান",
   "Results for {:query}": "{:query} এর ফলাফল",
-  "No results for {:query}": "{:query} এর জন্য কোনো ফলাফল নেই"
+  "No results for {:query}": "{:query} এর জন্য কোনো ফলাফল নেই",
+  "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "প্রকাশিত পেজ অনুসন্ধান — ডিফল্টে ডেটাবেস, অথবা Meilisearch, OpenSearch ও Elasticsearch"
 }

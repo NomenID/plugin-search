@@ -1,5 +1,6 @@
 {
   "Search pages": "חיפוש בדפים",
   "Results for {:query}": "תוצאות עבור {:query}",
-  "No results for {:query}": "אין תוצאות עבור {:query}"
+  "No results for {:query}": "אין תוצאות עבור {:query}",
+  "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "חיפוש בדפים שפורסמו — ברירת מחדל מסד נתונים, או Meilisearch, OpenSearch ו־Elasticsearch"
 }

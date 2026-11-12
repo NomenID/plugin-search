@@ -1,5 +1,6 @@
 {
   "Search pages": "पृष्ठ खोजें",
   "Results for {:query}": "{:query} के परिणाम",
-  "No results for {:query}": "{:query} के लिए कोई परिणाम नहीं"
+  "No results for {:query}": "{:query} के लिए कोई परिणाम नहीं",
+  "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "प्रकाशित पेज खोजें — डिफ़ॉल्ट डेटाबेस, या Meilisearch, OpenSearch और Elasticsearch"
 }

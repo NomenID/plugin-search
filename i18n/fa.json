@@ -1,5 +1,6 @@
 {
   "Search pages": "جستجوی صفحه‌ها",
   "Results for {:query}": "نتایج برای {:query}",
-  "No results for {:query}": "نتیجه‌ای برای {:query} نیست"
+  "No results for {:query}": "نتیجه‌ای برای {:query} نیست",
+  "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "جست‌وجو در صفحه‌های منتشرشده — پیش‌فرض پایگاه‌داده، یا Meilisearch، OpenSearch و Elasticsearch"
 }

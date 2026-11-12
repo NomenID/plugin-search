@@ -1,5 +1,6 @@
 {
   "Search pages": "페이지 검색",
   "Results for {:query}": "'{:query}' 검색 결과",
-  "No results for {:query}": "'{:query}'에 대한 결과가 없습니다"
+  "No results for {:query}": "'{:query}'에 대한 결과가 없습니다",
+  "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "게시된 페이지 검색 — 기본은 데이터베이스, Meilisearch·OpenSearch·Elasticsearch도 지원"
 }

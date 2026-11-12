@@ -1,5 +1,6 @@
 {
   "Search pages": "Szukaj na stronach",
   "Results for {:query}": "Wyniki dla {:query}",
-  "No results for {:query}": "Brak wyników dla {:query}"
+  "No results for {:query}": "Brak wyników dla {:query}",
+  "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "Wyszukiwanie w opublikowanych stronach — domyślnie baza danych, opcjonalnie Meilisearch, OpenSearch i Elasticsearch"
 }

@@ -1,5 +1,6 @@
 {
   "Search pages": "Tìm kiếm trang",
   "Results for {:query}": "Kết quả cho {:query}",
-  "No results for {:query}": "Không có kết quả cho {:query}"
+  "No results for {:query}": "Không có kết quả cho {:query}",
+  "Search published pages — database by default, or Meilisearch, OpenSearch and Elasticsearch": "Tìm kiếm trang đã xuất bản — mặc định dùng cơ sở dữ liệu, hoặc Meilisearch, OpenSearch và Elasticsearch"
 }
