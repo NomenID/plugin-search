@@ -25,10 +25,11 @@ class Controller
         $pages = (int)ceil($total / $perPage);
         $current = min(max(1, $requested), max(1, $pages));
 
-        $pagesBase = Plugins::mountUrl('pages') ?? '/w';
+        // 文档地址走 Pages 的挂载点，站长改路径后这里跟着变
+        $pagesBase = rtrim((string)Plugins::mountUrl('pages'), '/');
         $items = [];
         foreach ($result['items'] as $item) {
-            $item['url'] = Url::to(rtrim($pagesBase, '/') . '/' . $item['slug']);
+            $item['url'] = Url::to($pagesBase . '/' . $item['slug']);
             $items[] = $item;
         }
 
